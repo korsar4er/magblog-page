@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="sc" href="" />
+    <title>Mag Blog</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="header">
+          <div class="top-menu-small">
+            <button id="top-menu-small-btn">&#9776;</button>
+            <ul id="top-menu-small-list" class="top-menu-small__list">
+              <li><a href="/search">search</a></li>
+              <li><a href="/cinema">cinema</a></li>
+              <li><a href="/magazine">magazine</a></li>
+              <li>
+                <a href="www.cssauthor.com">cssauthor.com</a>
+              </li>
+              <li><a href="/topmenu">topmenu</a></li>
+              <li><a href="/archives">archives</a></li>
+              <li><a href="/contact">contact us</a></li>
+            </ul>
+          </div>
+
+          <div class="logo"><a href="/">MagBlog</a></div>
+          <form class="search">
+            <input type="text" id="search" />
+            <button type="submit">search</button>
+          </form>
+          <div class="social">
+            <ul>
+              <li>
+                <a href="/rss"><img src="images/social-rss.png" alt="rss" /></a>
+              </li>
+              <li>
+                <a href="/facebook"
+                  ><img src="images/social-facebok.png" alt="facebook"
+                /></a>
+              </li>
+              <li>
+                <a href="/twitter"
+                  ><img src="images/social-twitter.png" alt="twitter"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <nav class="top-menu">
+          <ul class="top-menu__list">
+            <li><a class="random-color" href="/">home</a></li>
+            <li><a class="random-color" href="/cinema">cinema</a></li>
+            <li><a class="random-color" href="/magazine">magazine</a></li>
+            <li>
+              <a class="random-color" href="www.cssauthor.com">cssauthor.com</a>
+            </li>
+            <li><a class="random-color" href="/topmenu">topmenu</a></li>
+            <li><a class="random-color" href="/archives">archives</a></li>
+            <li><a class="random-color" href="/contact">contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="featured-posts">
+        <div class="featured-posts__inner">
+          <h1 class="featured-posts__header">top stories</h1>
+          <div class="featured-posts__slider">
+            <div class="featured-posts__item">
+              <div class="post-card-s">
+                <a class="post-card-s__image" href="/posts/1"
+                  ><img src="/images/featured-post-1.png" alt=""
+                /></a>
+                <a class="post-card-s__title random-color" href="/posts/1"
+                  >cinema</a
+                >
+                <p class="post-card-s__subtitle">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatibus commodi modi error sapiente.
+                </p>
+              </div>
+            </div>
+            <div class="featured-posts__item">
+              <div class="post-card-s">
+                <a class="post-card-s__image" href="/posts/1"
+                  ><img src="/images/featured-post-2.png" alt=""
+                /></a>
+                <a class="post-card-s__title random-color" href="/posts/1"
+                  >travel</a
+                >
+                <p class="post-card-s__subtitle">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatibus commodi modi error sapiente.
+                </p>
+              </div>
+            </div>
+            <div class="featured-posts__item">
+              <div class="post-card-s">
+                <a class="post-card-s__image" href="/posts/1"
+                  ><img src="/images/featured-post-3.png" alt=""
+                /></a>
+                <a class="post-card-s__title random-color" href="/posts/1"
+                  >television</a
+                >
+                <p class="post-card-s__subtitle">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatibus commodi modi error sapiente.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="featured-posts__prev"></div>
+          <div class="featured-posts__next"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="wrapper-main-aside">
+          <main class="main">
+            <div class="post-card">
+              <div class="post-card__title">
+                <a href="/posts/1">
+                  <h2>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit
+                  </h2>
+                </a>
+              </div>
+              <div class="post-card__subtitle">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorum non ducimus cumque quasi reprehenderit corporis quia
+                  eligendi consequuntur vero perspiciatis. Quibusdam molestiae
+                  ipsam labore impedit totam atque excepturi! Natus, adipisci!
+                </p>
+              </div>
+              <div class="post-card__imagebox">
+                <img
+                  class="post-card__main-image"
+                  src="/images/post-main.png"
+                  alt=""
+                />
+                <div class="post-card__small-image-box">
+                  <img
+                    class="post-card__small-image"
+                    src="/images/post-small-1.png"
+                    alt=""
+                  />
+                  <img
+                    class="post-card__small-image"
+                    src="/images/post-small-2.png"
+                    alt=""
+                  />
+                  <img
+                    class="post-card__small-image"
+                    src="/images/post-small-3.png"
+                    alt=""
+                  />
+                  <img
+                    class="post-card__small-image"
+                    src="/images/post-small-4.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="post-card__footer">
+                <div class="post-card__category">
+                  Category: <span>Movie</span>
+                </div>
+                <div class="post-card__comments">
+                  <img src="/images/comments.png" alt="" /><span>5</span>
+                  Comments
+                </div>
+                <a class="post-card__readmore" href="/posts/1">Read more</a>
+              </div>
+              <div class="post-card__date">
+                <div class="post-card__day">28</div>
+                <div class="post-card__month">feb</div>
+              </div>
+            </div>
+            <div class="related-articles">
+              <h2 class="header-crossed">related articles</h2>
+              <ul class="related-articles__list">
+                <li class="related-articles__item">
+                  <a href="/posts/1">Lorem ipsum dolor</a>
+                </li>
+                <li class="related-articles__item">
+                  <a href="/posts/2">sit amet consectetur</a>
+                </li>
+                <li class="related-articles__item">
+                  <a href="/posts/3">adipisicing elit</a>
+                </li>
+                <li class="related-articles__item">
+                  <a href="/posts/4">Distinctio, ducimus</a>
+                </li>
+                <li class="related-articles__item">
+                  <a href="/posts/5">Corporis eos</a>
+                </li>
+                <li class="related-articles__item">
+                  <a href="/posts/6">nesciunt omnis, animi</a>
+                </li>
+                <li class="related-articles__item">
+                  <a href="/posts/7">molestiae enim expedita</a>
+                </li>
+                <li class="related-articles__item">
+                  <a href="/posts/8">iure error porro</a>
+                </li>
+                <li class="related-articles__item">
+                  <a href="/posts/9">tempore quos ducimus</a>
+                </li>
+              </ul>
+            </div>
+          </main>
+          <aside class="aside">
+            <div class="top-stories">
+              <h2 class="header-crossed">top stories</h2>
+              <nav class="top-stories__menu">
+                <div class="top-stories__menu-item random-color">
+                  <a href="/category/1">fashion</a>
+                </div>
+                <div class="top-stories__menu-item random-color active">
+                  <a href="/category/2">cinema</a>
+                </div>
+                <div class="top-stories__menu-item random-color">
+                  <a href="/category/3">television</a>
+                </div>
+              </nav>
+              <div class="top-stories__content">
+                <div class="top-stories__card">
+                  <img
+                    class="top-stories__card-image"
+                    src="/images/top-stories.png"
+                    alt=""
+                  />
+                  <a class="top-stories__card-title" href="/posts/1">
+                    Lorem Ipsum is simply dummy text of the printing
+                  </a>
+                  <p class="top-stories__card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. A
+                    commodi est ea voluptatibus, distinctio tenetur dolorem
+                    magnam esse.
+                  </p>
+                </div>
+                <div class="top-stories__card">
+                  <img
+                    class="top-stories__card-image"
+                    src="/images/top-stories.png"
+                    alt=""
+                  />
+                  <a class="top-stories__card-title" href="/posts/1">
+                    Lorem Ipsum is simply dummy text of the printing
+                  </a>
+                  <p class="top-stories__card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. A
+                    commodi est ea voluptatibus, distinctio tenetur dolorem
+                    magnam esse.
+                  </p>
+                </div>
+                <div class="top-stories__card">
+                  <img
+                    class="top-stories__card-image"
+                    src="/images/top-stories.png"
+                    alt=""
+                  />
+                  <a class="top-stories__card-title" href="/posts/1">
+                    Lorem Ipsum is simply dummy text of the printing
+                  </a>
+                  <p class="top-stories__card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. A
+                    commodi est ea voluptatibus, distinctio tenetur dolorem
+                    magnam esse.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">Designed by Cssauthor.com</footer>
+
+    <script src="/scripts/main.js"></script>
+  </body>
+</html>
